@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'MOOImageButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MOOImageButton.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'MOOImageButton can quick set image on the top/right/bottom/right on the button'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/994355869@qq.com/MOOImageButton'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  
+  s.homepage         = 'https://github.com/mxh-mo/MOOImageButton.git'
+  s.screenshots      = 'MOOImageButton//screenshots_1'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '994355869@qq.com' => 'mikimo@tencent.com' }
-  s.source           = { :git => 'https://github.com/994355869@qq.com/MOOImageButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/mxh-mo/MOOImageButton.git', :tag => s.version }
+  s.social_media_url = 'https://blog.csdn.net/Margaret_MO'
   s.ios.deployment_target = '10.0'
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.source_files = 'MOOImageButton/Classes/**/*'
+  s.public_header_files = 'MOOImageButton/Classes/Headers/**/*'
   
-  # s.resource_bundles = {
-  #   'MOOImageButton' => ['MOOImageButton/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
