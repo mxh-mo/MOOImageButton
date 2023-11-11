@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-<img src="screenshots_1.png" alt="image" style="zoom:67%;" />
+<img src="screenshots_1.png" alt="image" style="zoom:40%;" />
 
 ## Installation
 
