@@ -22,7 +22,7 @@ pod 'MOOImageButton', '0.1.0'
 ```ruby
 pod install
 ```
-```
+```swift
 import MOOImageButton
 
 let button = MOOImageButton(imagePosition: .top, imgTitleMargin: 6.0)
