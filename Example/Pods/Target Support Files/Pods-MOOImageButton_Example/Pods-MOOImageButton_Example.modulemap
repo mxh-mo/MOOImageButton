@@ -1,0 +1,6 @@
+framework module Pods_MOOImageButton_Example {
+  umbrella header "Pods-MOOImageButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

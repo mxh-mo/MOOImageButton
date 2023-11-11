@@ -1,0 +1,16 @@
+PODS:
+  - MOOImageButton (0.1.0)
+
+DEPENDENCIES:
+  - MOOImageButton (from `../`)
+
+EXTERNAL SOURCES:
+  MOOImageButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MOOImageButton: b64f7a5eaae3a8a8b3dc4c0d12a977921372ba97
+
+PODFILE CHECKSUM: 200261bd51a6aa2a85ecef443b4737592a04e6b1
+
+COCOAPODS: 1.12.0

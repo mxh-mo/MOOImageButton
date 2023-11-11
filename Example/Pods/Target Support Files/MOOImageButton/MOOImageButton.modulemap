@@ -1,0 +1,6 @@
+framework module MOOImageButton {
+  umbrella header "MOOImageButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
