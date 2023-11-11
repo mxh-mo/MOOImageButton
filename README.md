@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+<img src="screenshort_1.png" alt="image" style="zoom:67%;" />
 
 ## Installation
 
@@ -17,12 +17,23 @@ MOOImageButton is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MOOImageButton'
+pod 'MOOImageButton', '0.1.0'
+```
+```ruby
+pod install
+```
+```
+import MOOImageButton
+
+let button = MOOImageButton(imagePosition: .top, imgTitleMargin: 6.0)
+button.setTitle("top image", for: .normal)
+button.setImage(UIImage(named: "moo_like"), for: .normal)
+button.frame = CGRect(x: 50.0, y: 100.0, width: 100.0, height: 100.0)
 ```
 
 ## Author
 
-994355869@qq.com, mikimo@tencent.com
+994355869@qq.com
 
 ## License
 
