@@ -29,6 +29,7 @@ let button = MOOImageButton(imagePosition: .top, imgTitleMargin: 6.0)
 button.setTitle("top image", for: .normal)
 button.setImage(UIImage(named: "moo_like"), for: .normal)
 button.frame = CGRect(x: 50.0, y: 100.0, width: 100.0, height: 100.0)
+view.addSubview(button)
 ```
 
 ## Author
