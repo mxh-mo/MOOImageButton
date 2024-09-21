@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 <img src='screenshots_1.png' width='300'>
 
+![screenshots](./screenshots_1.png)
+
 ## Installation
 
 MOOImageButton is available through [CocoaPods](https://cocoapods.org). To install
